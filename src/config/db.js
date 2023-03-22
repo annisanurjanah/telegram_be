@@ -12,7 +12,7 @@ pool.connect((err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log('success connect to db postgres heroku');
+    console.log('success connect to postgres');
   }
 });
 

@@ -4,6 +4,8 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
     photo varchar(255),
+    bio text,
+    phone varchar(15),
     UNIQUE (email)
 );
 
