@@ -9,9 +9,9 @@ CREATE TABLE users (
     UNIQUE (email)
 );
 
-ALTER TABLE users 
-ADD CONSTRAINT users_id_pk
-PRIMARY KEY (id);
+-- ALTER TABLE users 
+-- ADD CONSTRAINT users_id_pk
+-- PRIMARY KEY (id);
 
 CREATE TABLE messages (
     id varchar(255) not null,
