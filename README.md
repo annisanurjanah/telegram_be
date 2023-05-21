@@ -6,7 +6,7 @@
     <image align="center" width="100" src='/images/telegramrest.jpg' />
   </p>
   <p align="center">
-    <a href="#">View Demo</a>
+    <a href="https://telegram-fe-pink.vercel.app/">View Demo</a>
   </p>
 </p>
 
@@ -155,7 +155,7 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Frontend Telegram`](https://github.com/Shaniara28/telegram_fe)
 
-:rocket: [`Demo Telegram`](#)
+:rocket: [`Demo Telegram`](https://telegram-fe-pink.vercel.app/)
 
 <!-- CONTACT -->
 
