@@ -13,12 +13,16 @@ const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
     origin: ['http://localhost:3000', 'https://telegram-fe-pink.vercel.app'],
+    credentials: true,
+    method: "GET, POST, PUT, DELETE"
   },
 });
 app.use(express.json());
 app.use(
   cors({
     origin: ['http://localhost:3000', 'https://telegram-fe-pink.vercel.app'],
+    credentials: true,
+    method: "GET, POST, PUT, DELETE"
   })
 );
 
