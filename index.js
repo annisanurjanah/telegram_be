@@ -12,7 +12,7 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: ['http://localhost:3000', 'https://telegram-fe-pink.vercel.app'],
+    origin: ['http://localhost:3000', 'https://telegram-fe-indol.vercel.app'],
     credentials: true,
     method: "GET, POST, PUT, DELETE"
   },
@@ -20,7 +20,7 @@ const io = new Server(httpServer, {
 app.use(express.json());
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://telegram-fe-pink.vercel.app'],
+    origin: ['http://localhost:3000', 'https://telegram-fe-indol.vercel.app'],
     credentials: true,
     method: "GET, POST, PUT, DELETE"
   })
